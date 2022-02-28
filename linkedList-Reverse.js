@@ -8,6 +8,8 @@ class Node {
     this.next = null;
   }
 }
+// given A -> B -> C -> D -> null
+// output D -> C -> B -> A -> null
 
 const reverseList = (head) => {
   let prev = null;
